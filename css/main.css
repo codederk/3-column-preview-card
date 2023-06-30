@@ -1,0 +1,145 @@
+/*
+Challenge by Frontend Mentor. 
+Coded by @Codederk.
+*/
+:root {
+  --color-primary-01: hsl(31, 77%, 52%);
+  --color-primary-02: hsl(184, 100%, 22%);
+  --color-primary-03: hsl(179, 100%, 13%);
+  --color-main-background: hsl(0, 0%, 95%);
+  --color-main-paragraph: hsla(0, 0%, 100%, 0.75);
+  --color-white: hsl(0, 0%, 95%);
+  --body-font-family: Lexend Deca;
+  --body-font-size: 1rem;
+  --body-font-weight: 400;
+  --body-line-height: 1.5;
+  --body-bg-color: hsl(0, 0%, 95%);
+  --body-color: hsla(0, 0%, 100%, 0.75);
+  --font-small: 0.8125rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size);
+  font-weight: var(--body-font-weight);
+  line-height: var(--body-line-height);
+  background-color: var(--color-main-background);
+  color: var(--body-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    height: 100vh;
+  }
+}
+main {
+  display: block;
+}
+
+h1 {
+  margin: 0;
+  color: var(--color-white);
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display", cursive;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.645;
+  color: var(--color-main-paragraph);
+}
+
+a {
+  background-color: transparent;
+}
+
+small,
+.small {
+  font-size: var(--font-small);
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  font-family: inherit;
+}
+
+.card {
+  max-width: 576px;
+  margin: calc(1rem + 1.5625vw);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.box {
+  padding: 50px;
+}
+.box .icon,
+.box h1,
+.box p {
+  margin-bottom: 1.75rem;
+}
+
+.box-sedans {
+  background-color: var(--color-primary-01);
+}
+.box-sedans button {
+  color: var(--color-primary-01);
+}
+
+.box-suvs {
+  background-color: var(--color-primary-02);
+}
+.box-suvs button {
+  color: var(--color-primary-02);
+}
+
+.box-luxury {
+  background-color: var(--color-primary-03);
+}
+.box-luxury button {
+  color: var(--color-primary-03);
+}
+
+.action-button {
+  background-color: var(--color-white);
+  border: 2px solid var(--color-white);
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+  transition: all 0.3s ease;
+}
+.action-button:hover {
+  background-color: transparent;
+  color: var(--color-white);
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    display: flex;
+    max-width: 992px;
+    margin: 0 calc(1rem + 1.5625vw);
+  }
+}

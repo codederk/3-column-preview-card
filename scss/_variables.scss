@@ -1,0 +1,18 @@
+// Color Variables
+$color-main-background: hsl(0, 0%, 95%); // Light Grey
+$color-main-paragraph: hsla(0, 0%, 100%, 0.75); // Transparent White
+$color-white: hsl(0, 0%, 95%);
+$color-primary-01: hsl(31, 77%, 52%); // Bright Orange
+$color-primary-02: hsl(184, 100%, 22%); // Dark Cyan
+$color-primary-03: hsl(179, 100%, 13%); // Very Dark Cyan
+
+// Body
+$body-font-family: "Lexend Deca";
+$body-font-size: 1rem;
+$body-font-weight: 400;
+$body-line-height: 1.5;
+$body-bg-color: $color-main-background;
+$body-color: $color-main-paragraph;
+
+// Text
+$font-small: 0.8125rem;
